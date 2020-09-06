@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4cea7ae3c3.js" crossorigin="anonymous"></script>
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="css/Recuperar.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="menu-bt"><span><i class="fas fa-bars"></i></span></a>
+    <div class="logo"><a href="index.html"> <img src="img/aguila.png" alt=""></a></div>
+    <nav>
+        <ul class="navlinks">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="Registro.html">Registrarse</a></li>
+          <li><a href="Productos.html">Productos</a></li>
+        </ul>
+    </nav>
+    </header>
+   <div class="login-box">
+    <h1>Recuperar contraseña</h1>
+    <img src="img/aguila.png" class="avatar" alt="Avatar Image">
+    <form>
+      <!-- USERNAME INPUT -->
+      <label for="username">Email</label>
+      <input type="text" placeholder="Enter Email">
+      <h4>Te enviaremos un correo para que puedas recuperar tu cuenta</h4>
+      <input type="submit" value="Enviar">
+      <a href="Login.html"> Tengo cuneta</a> <br>
+      <a href="Registro.html"> No tengo cuneta</a>
+    </form>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $('.menu-bt').click(function(){
+         $('.fas').toggleClass('active')
+         $('nav').toggleClass('active')
+        })
+})
+  </script>
+</body>
+</html>
